@@ -105,7 +105,7 @@ class TodoList extends Component {
                       index={index}
                       value={value}
                     />
-                  <button className="delete" onClick={() => this.deleteTask(index)}>delete</button>
+                  // <button className="delete" onClick={() => this.deleteTask(index)}>delete</button>
 
                 ))}
               </SortableContainer>
